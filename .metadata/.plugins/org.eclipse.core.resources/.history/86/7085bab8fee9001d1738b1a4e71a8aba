@@ -1,0 +1,42 @@
+package Fundamentos;
+
+public class Logico {
+	public static void main(String[] args) {
+		
+		boolean condiçao01 = true;
+		boolean condiçao02 = 3 > 7;
+		
+		System.out.println(condiçao01 && condiçao02);
+		System.out.println(condiçao01 || condiçao02);
+		System.out.println(condiçao01 ^ condiçao02);
+		System.out.println(!condiçao01);
+		System.out.println(!condiçao02);
+		
+		System.out.println("tabela verade E (AND,)"); // &&
+		System.out.println(true && true);
+		System.out.println(true && false);
+		//System.out.println(false && true);
+		//System.out.println(false && false);
+		
+		System.out.println("tabela verade OU (OR)"); // ||
+		//System.out.println(true || true);
+		//System.out.println(true || false);
+		System.out.println(false || true);
+		System.out.println(false || false);
+		
+		System.out.println("tabela verade OU Exlusivo(XOR)"); // ^
+		//System.out.println(true || true);
+		//System.out.println(true || false);
+		System.out.println(false || true);
+		System.out.println(false || false);
+		
+		System.out.println("tabela verade NOT)"); // negaçao !! dupla negaçao
+		System.out.println(!true);
+		System.out.println(!false);
+		
+		
+		
+		
+	}
+
+}
